@@ -4,8 +4,8 @@ from email.header import decode_header
 from datetime import datetime
 import pytz
 
-EMAIL_USER = "gbalarakesh16@gmail.com"
-EMAIL_PASS = "rdukowvnmjakwxvr"  # Make sure to use an App Password!
+EMAIL_USER = "your-email@gmail.com"  
+EMAIL_PASS = "your-app-password"    # Make sure to use an App Password!
 IMAP_SERVER = "imap.gmail.com"
 KEYWORD = input("Enter the keyword to alert on: ").lower()
 
