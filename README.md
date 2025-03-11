@@ -11,6 +11,18 @@ This Python script monitors your Gmail inbox for a specific keyword and provides
 * **Error Handling:** ⚠️ Includes basic error handling to catch potential issues.
 * **Efficiency:** 🚀 Limits the search to the last 50 emails for faster execution.
 
+## Getting Started
+
+### Pre-requisites
+
+* **Python 3.6+:** Ensure you have Python 3.6 or a later version installed on your system.
+* **Gmail Account:** You'll need a Gmail account to use this script.
+* **App Password:** Generate an App Password for your Gmail account. This is crucial for security.
+* **Python Libraries:** Install the necessary Python libraries:
+    ```bash
+    pip install pytz
+    ```
+
 ## 🧑‍💻 How to Use 🧑‍💻
 
 1.  **Installation:** Ensure you have Python installed. You'll need to install the `pytz` module if you don't have it:
