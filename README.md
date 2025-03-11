@@ -33,16 +33,17 @@ This Python script monitors your Gmail inbox for a specific keyword and provides
 
 ## 📝 Example Usage 📝
 
-Enter the keyword to alert on: important
-Connecting to the email server...
-Fetching all emails... (This may take a few seconds)
-Total emails found: 123
-📩 Email Found:
-From: [email address removed]
-Received on (IST): 2023-10-27 10:30:00
-Subject: Important Meeting
-⚠️ ALERT: Email contains the keyword 'important'
-Message: We have an important meeting today...
+Enter the keyword to alert on: important\n
+Connecting to the email server...\n
+Fetching all emails... (This may take a few seconds)\n
+Total emails found: 123\n
+\n
+📩 Email Found:\n
+From: [email address removed]\n
+Received on (IST): 2023-10-27 10:30:00\n
+Subject: Important Meeting\n
+⚠️ ALERT: Email contains the keyword 'important'\n
+Message: We have an important meeting today...\n
 
 
 ## 🛠️ Future Improvements 🛠️
