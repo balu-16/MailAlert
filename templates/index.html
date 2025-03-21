@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Keyword Alert | Search your inbox</title>
+    <meta name="description" content="Search your email inbox for specific keywords and get instant alerts">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://img.icons8.com/color/48/000000/email.png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <div class="logo-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h1>Email Keyword Alert</h1>
+            </div>
+            <p>Quickly search your inbox for important keywords and stay on top of critical information</p>
+        </header>
+
+        <div class="search-container">
+            <h2><i class="fas fa-search"></i> Search Your Inbox</h2>
+            <form id="search-form">
+                <div class="input-group">
+                    <input type="text" id="keyword" placeholder="Enter keyword to search..." required autocomplete="off">
+                    <button type="submit" id="search-btn">
+                        <i class="fas fa-search"></i> Search
+                    </button>
+                </div>
+                <div class="search-tips">
+                    <p><i class="fas fa-info-circle"></i> Search for keywords like <span class="tip-keyword">urgent</span>, <span class="tip-keyword">meeting</span>, <span class="tip-keyword">report</span>, or <span class="tip-keyword">deadline</span></p>
+                </div>
+            </form>
+            <div class="loader" id="loader">
+                <div class="spinner"></div>
+                <p>Searching your emails...</p>
+            </div>
+        </div>
+
+        <div class="stats" id="stats">
+            <div class="stat-card">
+                <i class="fas fa-envelope-open stat-icon"></i>
+                <div class="stat-value" id="total-emails">0</div>
+                <div class="stat-label">Total Emails</div>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-check-circle stat-icon"></i>
+                <div class="stat-value" id="matching-emails">0</div>
+                <div class="stat-label">Matching Emails</div>
+            </div>
+        </div>
+
+        <div class="results-container" id="results-container">
+            <h2><i class="fas fa-envelope-open-text"></i> Search Results</h2>
+            <div id="email-list"></div>
+        </div>
+
+        <div class="error-container" id="error-container">
+            <h3><i class="fas fa-exclamation-triangle"></i> Error Occurred</h3>
+            <ul id="error-list"></ul>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Email Keyword Alert | Created with <i class="fas fa-heart"></i> by You</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html> 
