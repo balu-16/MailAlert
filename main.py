@@ -23,7 +23,7 @@ def convert_to_ist(date_str):
     utc_time = utc_time.replace(tzinfo=pytz.utc)
     # Convert to Indian Standard Time (IST)
     ist_time = utc_time.astimezone(pytz.timezone('Asia/Kolkata'))
-    return ist_time.strftime('%Y-%m-%d %H:%M:%S')  # Format the date as needed
+    return ist_time.strftime('%Y-%m-%d %H:%M:%S') 
 
 def check_emails():
     try:
