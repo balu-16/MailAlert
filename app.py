@@ -9,8 +9,8 @@ import os
 app = Flask(__name__)
 
 # Use environment variables for sensitive credentials
-EMAIL_USER = os.environ.get("EMAIL_USER", "gbalarakesh16@gmail.com")
-EMAIL_PASS = os.environ.get("EMAIL_PASS", "kihevautgfklafej")  # App Password
+EMAIL_USER = os.environ.get("EMAIL_USER", "your_email@gmail.com")
+EMAIL_PASS = os.environ.get("EMAIL_PASS", "your_appPassword")  # App Password
 IMAP_SERVER = "imap.gmail.com"
 
 
