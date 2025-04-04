@@ -1,2 +1,6 @@
-pytz==2025.1
 Flask==3.0.3
+pytz==2025.1
+imaplib2==2.101  # IMAP email fetching (if using imaplib2 instead of built-in imaplib)
+email-validator==2.1.0  # Ensures proper email handling
+python-dotenv==1.0.1  # Loads environment variables from .env file (Recommended for security)
+gunicorn==21.2.0  # Production WSGI server for Render deployment
