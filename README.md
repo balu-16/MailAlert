@@ -71,3 +71,8 @@ Message: We have an important meeting today...
 ## 🙌 Contributing 🙌
 
 Contributions are welcome! Please feel free to submit pull requests or open issues.
+
+## License
+This project is licensed as **proprietary and confidential**.  
+**You may not reuse, modify, or redistribute any part of this code.**
+
