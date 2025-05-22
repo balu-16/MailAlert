@@ -58,7 +58,7 @@ Subject: Important Meeting
 ⚠️ ALERT: Email contains the keyword 'important'
 Message: We have an important meeting today...
 ```
-
+---
 
 ## 🛠️ Future Improvements 🛠️
 
@@ -68,9 +68,13 @@ Message: We have an important meeting today...
 * Implement email marking (e.g., marking as read) or deletion.
 * Add notifications (e.g., desktop notifications).
 
+---
+
 ## 🙌 Contributing 🙌
 
 Contributions are welcome! Please feel free to submit pull requests or open issues.
+
+---
 
 ## License
 This project is licensed as **proprietary and confidential**.  
